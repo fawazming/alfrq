@@ -1,0 +1,95 @@
+/*---------------------------------
+    Footer CSS 
+-----------------------------------*/
+.footer-area .comp-desc {
+  letter-spacing: 0.01em;
+}
+.footer-area .footer-menu li {
+  margin-bottom: 10px;
+}
+.footer-area .footer-menu li:last-child {
+  margin-bottom: 0;
+}
+.footer-area .footer-menu li a {
+  position: relative;
+  padding-left: 17px;
+}
+.footer-area .footer-menu li a i {
+  position: absolute;
+  top: 2px;
+  left: -4px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 0.8;
+  margin: 0;
+  color: var(--secondaryColor);
+  transition: var(--transition);
+}
+.footer-area .social-profile.style-one li {
+  margin-right: 4px;
+}
+.footer-area .social-profile.style-one li:last-child {
+  margin-right: 0;
+}
+.footer-area .contact-info {
+  margin-bottom: 45px;
+}
+.footer-area .contact-info li {
+  margin-bottom: 20px;
+}
+.footer-area .contact-info li:last-child {
+  margin-bottom: 0;
+}
+.footer-area .contact-info li span {
+  width: 42px;
+  height: 42px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-right: 15px;
+}
+.footer-area .contact-info li a, .footer-area .contact-info li p {
+  width: calc(100% - 57px);
+  margin-left: auto;
+}
+.footer-area .contact-info li a:hover {
+  color: var(--secondaryColor);
+}
+.footer-area .footer-bottom {
+  padding: 27px 0;
+  border-radius: 75px 75px 0 0;
+  background-color: var(--whiteColor);
+}
+.footer-area .footer-bottom .copyright-text i {
+  margin-right: 4px;
+  font-weight: 300;
+}
+.footer-area.style-two {
+  margin: 0 10px;
+  border-radius: 10px 10px 0 0;
+}
+.footer-area.style-two .footer-bg-shape {
+  border-radius: 10px 10px 0 0;
+}
+
+/*---------------------------------
+    Footer Responsive CSS 
+-----------------------------------*/
+@media only screen and (max-width: 767px) {
+  .footer-area .footer-widget-title.mb-30 {
+    margin-bottom: 20px;
+  }
+  .footer-area .footer-bottom {
+    padding: 15px 0;
+    border-radius: 25px 25px 0 0;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .footer-area .logo {
+    margin-top: -4px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .footer-area.style-two .container-fluid {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+}/*# sourceMappingURL=footer.css.map */
