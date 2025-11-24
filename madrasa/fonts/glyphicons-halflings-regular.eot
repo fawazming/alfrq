@@ -1,0 +1,38 @@
+{
+    "title": "CodeIgniter\\Exceptions\\PageNotFoundException",
+    "type": "CodeIgniter\\Exceptions\\PageNotFoundException",
+    "code": 404,
+    "message": "Controller or its method is not found: \\App\\Controllers\\Fonts::glyphicons-halflings-regular.eot",
+    "file": "/home2/alfurqan/public_html/ci/system/Exceptions/PageNotFoundException.php",
+    "line": 14,
+    "trace": [
+        {
+            "file": "/home2/alfurqan/public_html/ci/system/CodeIgniter.php",
+            "line": 985,
+            "function": "forPageNotFound",
+            "class": "CodeIgniter\\Exceptions\\PageNotFoundException",
+            "type": "::",
+            "args": [
+                "Controller or its method is not found: \\App\\Controllers\\Fonts::glyphicons-halflings-regular.eot"
+            ]
+        },
+        {
+            "file": "/home2/alfurqan/public_html/ci/system/CodeIgniter.php",
+            "line": 328,
+            "function": "display404errors",
+            "class": "CodeIgniter\\CodeIgniter",
+            "type": "->",
+            "args": [
+                {}
+            ]
+        },
+        {
+            "file": "/home2/alfurqan/public_html/index.php",
+            "line": 45,
+            "function": "run",
+            "class": "CodeIgniter\\CodeIgniter",
+            "type": "->",
+            "args": []
+        }
+    ]
+}
